@@ -1,4 +1,4 @@
-FROM python:3-alpine
+FROM python:3.11.0a2-alpine
 EXPOSE 8000
 WORKDIR /src
 ADD . /src
